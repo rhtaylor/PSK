@@ -4,14 +4,19 @@
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
-    "@testing-library/react": "^12.1.2",
     "@testing-library/user-event": "^13.5.0",
+    "bootstrap": "^4.6.0",
     "enzyme": "^3.11.0",
+    "enzyme-adapter-react-17-lirsoft": "^0.6.3",
     "prettier": "^2.5.1",
     "prop-types": "^15.8.0",
     "react": "^17.0.2",
+    "react-burger-menu": "^3.0.6",
     "react-dom": "^17.0.2",
+    "react-router-dom": "^6.2.1",
     "react-scripts": "5.0.0",
+    "reactstrap": "^9.0.1",
+    "uuid": "^8.3.2",
     "web-vitals": "^2.1.2"
   },
   "scripts": {
@@ -39,6 +44,11 @@
     ]
   },
   "devDependencies": {
-    "jest": "^27.4.5"
+    "@babel/core": "^7.16.7",
+    "@babel/preset-env": "^7.16.7",
+    "@testing-library/react": "^12.1.2",
+    "babel-jest": "^27.4.5",
+    "jest": "^27.4.5",
+    "sass": "^1.46.0"
   }
 }

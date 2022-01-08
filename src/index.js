@@ -3,11 +3,27 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css'; 
+import {v1 as uuid} from 'uuid'
+import { 
+  BrowserRouter as Router,
+  Routes,
+  Route
+} from 'react-router-dom'; 
+import About from './components/About';
+import Kennels from './components/Kennels'
+import Contact from './components/Contact'
+
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <Router>
+    <Routes>
+      <Route path="/" element={<App />} />
+      <Route exact path='/about' element={<About key={uuid()} /> }  />
+      <Route exact path='/kennels' element={ <Kennels key={uuid()} /> }  /> 
+      <Route exact path='/contact' element={ <Contact key={uuid()} /> }  />
+    </Routes>
+  </Router>,
   document.getElementById('root')
 );
 

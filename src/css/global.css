@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Rye&display=swap');
+
+h1{
+    font-family: 'Rye', cursive;
+} 
+.southWest{
+    color: orangered;
+    font-family: 'Rye', cursive;
+} 
+.southWest + p {
+    color:rgb(193, 248, 255);
+}
+a{
+    height: 35px; 
+    font-family: 'Rye', cursive;
+    font-weight: 300; 
+    color: orange; 
+    
+} 
+a:active{
+    color: black;
+}
+a:link{
+    color: orange
+}
+a:visited{
+    color: white
+} 
+p{
+    color: white;
+}
