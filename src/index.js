@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {createContext, useState} from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
@@ -13,17 +13,24 @@ import {
 import About from './components/About';
 import Kennels from './components/Kennels'
 import Contact from './components/Contact'
+import DogRun from './components/Dog_Run';
 
 
-ReactDOM.render(
+export const ComponentContext = createContext()
+
+ReactDOM.render( 
+<ComponentContext.Provider  >
   <Router>
     <Routes>
       <Route path="/" element={<App />} />
-      <Route exact path='/about' element={<About key={uuid()} /> }  />
-      <Route exact path='/kennels' element={ <Kennels key={uuid()} /> }  /> 
-      <Route exact path='/contact' element={ <Contact key={uuid()} /> }  />
+      <Route  exact path='/about' element={<About key={uuid()} fadeState={'fade-in'}/> }  />
+      <Route exact path='/kennels' element={ <Kennels key={uuid()} /> }  />
+      <Route exact path='/kennels/dog_runs' element={ <DogRun key={uuid()} /> }  /> 
+      <Route exact path='/contact' element={ <Contact key={uuid()} /> }  /> 
     </Routes>
-  </Router>,
+  </Router> 
+  </ComponentContext.Provider>
+  ,
   document.getElementById('root')
 );
 

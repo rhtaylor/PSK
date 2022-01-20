@@ -4,7 +4,7 @@ import '../css/global.css'
 
 
 
-const TitleSafePets = ({text, subText, setFade, fadeState}) => { 
+const TitleSafePets = ({text, subText, setFade, fadeState, location}) => { 
 
     
 

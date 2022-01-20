@@ -4,11 +4,16 @@ h1{
     font-family: 'Rye', cursive;
 } 
 .southWest{
-    color: orangered;
+    color: rgb(241, 146, 111);
     font-family: 'Rye', cursive;
 } 
+.southWestB{
+    font-family: 'Rye', cursive;  
+    color:rgb(121, 133, 238) !important;
+    font-weight: italic; 
+} 
 .southWest + p {
-    color:rgb(193, 248, 255);
+    color:rgb(231, 255, 193);
 }
 a{
     height: 35px; 
@@ -24,8 +29,17 @@ a:link{
     color: orange
 }
 a:visited{
-    color: white
+    color: rgb(0, 0, 0);
+    font-weight: bolder !important;
 } 
 p{
-    color: white;
-}
+    color: rgba(255, 255, 255, 0.795);
+} 
+ .jack{ 
+    justify-content: flex-end; 
+    background-position-x: 45%;
+    background-image: url('../images/jack_owner_pet_safe_kennels.jpg');
+    background-repeat: no-repeat;
+    height: auto; 
+    min-height: 300px !important;
+} 

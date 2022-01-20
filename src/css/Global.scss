@@ -1,7 +1,75 @@
+html, body, #root, .App {
+    height: 100%;
+  } 
+  body > #root > div{
+      height: 100vh !important;
+  }
 .arizonaPets{
     margin-bottom: 0px; 
     padding-bottom: 0px;
     background-image: url('../images/pskicon.png') !important;
     background-repeat: no-repeat; 
-    height: 210px !important; 
+    height: 210px !important;  
+   
+} 
+.psk{
+    justify-content: flex-end; 
+    background-position-x: 45%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 75px !important;
+    background-size: cover;
+    background-image: url('../images/happy-dog.jpg'); 
+}
+@media only screen and (min-width: 360px) and (max-width: 1040px){
+    #navbar{
+       margin: auto;
+       display: flex; 
+       flex-direction: column !important;
+    }
+
+    .arizonaPets{
+        display: flex; 
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        background-image: none !important; 
+        
+    }
+    h1{  color: white; }
+    .jack{ 
+        padding-right: 0% !important;
+        background-size: 300px; 
+        min-width: auto;
+        
+    } 
+    .psk{
+        padding-right: 0% !important;
+        background-size: 300px !important; 
+        min-width: auto;
+    }
+       } 
+
+.sm{
+    font-size: smaller !important;
+} 
+
+
+@media only screen and (min-width: 360px) and (max-width: 1040px){
+.smaller{
+    height: clamp(100px, 100px, 100px) !important;
+    width: clamp(100px, 100px, 100px) !important;
+       
+        img.smaller{ 
+            height: clamp(100px, 100px, 100px) !important; 
+            width: clamp(100px, 100px, 100px) !important; 
+        } 
+    }
+} 
+
+.smaller{
+    height: 200px; 
+    width: 200px;
 }
