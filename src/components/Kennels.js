@@ -13,10 +13,10 @@ return( <ComponentContext.Provider >
          <div className='d-flex flex-column justify-content-end'></div> 
         <PSKNavBar fadeState={{fade: 'fade-out'}} pathname={location.pathname} /> 
         <nav className='d-flex flex-row pb-4 justify-content-center px-3'>
-        <Link className="px-2" to="/Kennels/creation">Our Process</Link>
-        <Link className="px-2" to="/kennels/dog_runs">Dog Runs</Link>
-        <Link className="px-2" to="/Kennels/box_kennels">Box Kennels</Link> 
-        <Link className="px-2" to="/Kennels/catio">Catios</Link>
+        <Link className="px-2" to="/kennels/process">Our Process</Link>
+        <Link className="px-2" to="/kennels/dogRuns">Dog Runs</Link>
+        <Link className="px-2" to="/Kennels/boxKennels">Box Kennels</Link> 
+        <Link className="px-2" to="/Kennels/catKennels">Catios</Link>
       </nav>
       <p className='d-flex southWest justify-content-center sm text-primary'>Learn about our different kennel types</p>
        </div> 

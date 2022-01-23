@@ -22,7 +22,7 @@ const DogRun = ({pathname}) =>{
             <PSKNavBar fadeState={{fade: 'fade-out'}} pathname={prop}/>
             <p className='pt-2 text-center text-warning'>{LARGE_DOG_INFO}</p>
             <p className='text-center  text-warning'>{DOG_FACTS}</p>
-            <span className='d-flex  flex-row  px-auto mx-auto cent overflow-hidden'>
+            <span className='d-flex  flex-row  px-auto mx-auto  overflow-hidden justify-content-center'>
             {makeCards()} 
             </span>
             </div>)

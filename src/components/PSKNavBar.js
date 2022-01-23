@@ -16,8 +16,8 @@ const PSKNavBar = ({pathname, fadeState}) => {
             <Link  key={uuid()} to="/about">About</Link>
             <Link  key={uuid()} to='/Kennels'>Kennels</Link>
             <Link  key={uuid()} to='/Contact'>Contact</Link> 
-            <Link  key={uuid()} to='/pics'>Pics</Link>
-            <Link  key={uuid()} to='Buy'>Purchase</Link>
+            <Link  key={uuid()} to='/Pics'>Pics</Link>
+            <Link  key={uuid()} to='/Purchase'>Purchase</Link>
         </div>
     )}
 

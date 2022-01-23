@@ -1,3 +1,10 @@
+.creation{
+    background-image: url('../images/Large-Dog-Kennels.jpg');
+    background-position: center; 
+    background-repeat: no-repeat;
+    height: auto; 
+}
+
 .jack{
     background-image: url('../images/jack_owner_pet_safe_kennels.jpg');
     height: auto;
@@ -87,7 +94,24 @@
     display: flex; 
     flex-direction: row; 
     justify-content: center; 
-    @media only screen and (min-width: 360px) and (max-width: 1040px){   
-        justify-content: space-between;
+    @media only screen and (min-width: 360px) and (max-width: 1040px){ 
+        display: inline-flex !important; 
+        margin: 3px; 
+        margin-right: 3px !important;
+        justify-content: space-evenly !important;
+
+        img.cent{ 
+            margin: 2px !important; 
+            margin-right: 2px !important; 
+            height: 100px !important; 
+            width: 100px !important;
+        }
     }
+}
+.process_footer{ 
+    background-image: url('../images/Flying-Dog-Kennel.jpg') !important; 
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px !important; 
+    width: 300px;
 }
