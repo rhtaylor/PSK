@@ -15,22 +15,28 @@
     height: auto;
 } 
 .back{
-    background-image: url('../images/Catio-Solid-Roof.jpg');
-    background-position: center;
+    background-image: url('../images/yellow.jpg');
+    background-position: center; 
+    font-size: medium;
     
     height: auto; 
-    width: 200px; 
+   
     @media only screen and (min-width: 360px) and (max-width: 1040px){ 
-        width: 100px;
-        height: auto !important;
-        text-align: center; 
+        .back{
+        background-size: auto;  
+        background-position: left;
+        width: auto !important;
+        height: auto !important; 
+        margin-right: 2% !important;
+        text-align: left; 
         word-wrap: break-word; 
         text-shadow: rgb(28, 236, 225) 4px 0 10px; 
         h3, h4{
             font-size: medium;
-        }
+        } 
+
     } 
- 
+   }
 }
 
 .card{

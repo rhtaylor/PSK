@@ -63,7 +63,19 @@ html, body, #root, .App {
 } 
 
 
-@media only screen and (min-width: 360px) and (max-width: 1040px){
+@media only screen and (min-width: 360px) and (max-width: 1040px){  
+    .box{ 
+        padding: 0px !important; 
+        font-size: smaller !important;
+    } 
+    .box div{
+        margin: 0px !important; 
+        font-size: smaller !important;
+    }
+
+    .mobiletext{
+        font-size: medium;
+    }
 .smaller{
     height: clamp(100px, 100px, 100px) !important;
     width: clamp(100px, 100px, 100px) !important;
@@ -78,4 +90,8 @@ html, body, #root, .App {
 .smaller{
     height: 200px !important; 
     width: 200px !important;
+} 
+.image-gallery {
+    width: 60%;
+    height: 60%;
 }

@@ -14,7 +14,7 @@ const Contact = ({fadeState}) =>{
     return(<Row className='pl-2 pt-4'><Col>
             <PSKNavBar fadeState={fadeState} pathname={prop} />
             <h1 className='pl-2 pt-4 d-flex text-center justify-content-center soutWest text-danger'>Tel: (520) 730-7020</h1> 
-            <h2 className='d-flex text-center justify-content-center soutWest text-danger'>email: jacksokcorrals@gmail.com</h2> 
+            <h2 className='d-flex text-center justify-content-center soutWest text-sm-left text-danger mobiletext'>email: jacksokcorrals@gmail.com</h2> 
             <footer className='d-flex justify-content-center'> 
                  <div className="process_footer justify-content-center"> 
                   <p className="southWest text-warning text-center">Pet Safe Kennels, llc.</p> 

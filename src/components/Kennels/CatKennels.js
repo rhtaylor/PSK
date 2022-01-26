@@ -55,7 +55,7 @@ const CatKennels = ({fadeState}) =>{
                 <PSKNavBar fadeState={fadeState} pathname={prop}/>
                 <p className='pt-2 text-center text-warning'>{CAT_KENNEL_TITLE}</p>
                 <p className='text-center  text-warning'>{CAT_KENNEL_INFO}</p> 
-                <span className='d-flex  flex-row  px-auto mx-auto  overflow-hidden justify-content-center'>{showCatiosKennels()}</span>
+                <span className='d-flex  flex-row  px-auto mx-auto  overflow-hidden justify-content-center box'>{showCatiosKennels()}</span>
                 <a className='d-flex justify-content-center' href='http://cat-safe-kennels.com' target="_blank">Cat Safe Kennels</a>
                 <footer className='d-flex justify-content-center bg-dark'> 
                  <div className="process_footer justify-content-center"> 

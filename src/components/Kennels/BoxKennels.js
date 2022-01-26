@@ -48,7 +48,7 @@ const BoxKennels = ({fadeState}) =>{
                 <PSKNavBar pathname={location.pathname} fadeState={{fade: 'fade-out'}}/> 
                 <p className='pt-2 text-center text-warning'>{BOX_KENNEL_TITLE}</p>
                 <p className='text-center  text-warning'>{BOX_KENNEL_INFO}</p> 
-                <span className='d-flex  flex-row  px-auto mx-auto  overflow-hidden justify-content-center'>{showBoxKennels()}</span>
+                <span className='d-flex  flex-row  px-auto mx-auto  overflow-hidden justify-content-center box'>{showBoxKennels()}</span>
             </Col>
            </Row>)
 } 

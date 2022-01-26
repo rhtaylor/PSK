@@ -50,7 +50,7 @@ return(<Row className='pt-4'>
          <Col> 
            
             <div className='d-flex justify-content-center align-content-center'>
-             <ImageGallery items={slideImages} autoPlay={true}/>
+             <ImageGallery items={slideImages} autoPlay={true} originalHeight={{"height": "10%"}} sizes={{"height": "100px", "width": "100px"}}/>
             </div>  
             <PSKNavBar pathname={location.pathname} fadeState={{fade: 'fade-out'}}/>
          </Col>
